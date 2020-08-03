@@ -1,0 +1,7 @@
+function say(greeting, firstName) {
+  console.log(`${greeting}, 
+${firstName}!`)
+}
+say("Goodbye", "Julio")
+/* say() is the function, while the brackets are the instructions for the function */
+say(`hello`, `Dolly`)

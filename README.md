@@ -9,3 +9,18 @@ Saving varies by the type of work you are doing:
 -- *Git repositories that you clone into the Sandbox are NOT automatically saved.* In this case, you are responsible for committing and pushing your work to GitHub. 
 
 To learn more about the Sandbox, please visit http://help.learn.co/technical-support/learn-ide-in-browser/ide-in-browser-sandbox
+function sayHelloToJared() {
+  console.log(`Hello, Jared, how are your?`)
+}
+function say(greeting, lastName) {
+  console.log(`${greeting}, 
+  ${lastName}!`)
+}
+say('Hello', 'Ibarrola')
+console.log (`ibarrola`)
+function add(x, y) {
+  return x + y 
+}
+function say(greeting, firstName) {
+  return `${greeting}, ${firstName}!`
+}
